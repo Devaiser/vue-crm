@@ -125,7 +125,7 @@
         if (this.canCreateRecord) {
           try {
             await this.$store.dispatch('createRecord', {
-              categoryID: this.category,
+              categoryId: this.category,
               amount: this.amount,
               description: this.description,
               type: this.type,
