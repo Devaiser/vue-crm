@@ -8,10 +8,9 @@ import messagePlugin from '@/utils/message.plugin.js';
 import 'materialize-css/dist/js/materialize.min';
 import './registerServiceWorker';
 
-// import { initializeApp } from 'firebase/app';
 import firebase from 'firebase/app';
 import 'firebase/auth';
-import 'firebase/firestore';
+import 'firebase/database';
 
 Vue.config.productionTip = false;
 
